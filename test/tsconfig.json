@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 {
     "compilerOptions": {
@@ -12,3 +13,18 @@
       ]
     }
   }
+=======
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "es2017",
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "typeRoots": [
+      "../node_modules/@types",
+      "src/@types"
+    ]
+  }
+}
+>>>>>>> f8e214eecd905d3996496473bade816a01a7ef56

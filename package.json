@@ -1,24 +1,43 @@
 {
+<<<<<<< HEAD
   "name": "08",
   "version": "1.0.0",
   "description": "",
   "main": "dist/server.js",
   "scripts": {
     "test": "",
+=======
+  "name": "calculator-svc",
+  "version": "1.0.0",
+  "description": "service to expose calculator",
+  "main": "dist/server.js",
+  "scripts": {
+    "start": "node .",
+    "test": "mocha",
+>>>>>>> f8e214eecd905d3996496473bade816a01a7ef56
     "test-e2e": "mocha --config ./test/.mocharc.yaml",
     "dev": "tsc -w",
     "dev-test": "tsc -w -p test",
     "build": "tsc",
+<<<<<<< HEAD
     "build-test": "tsc -p -test",
     "start": "node .",
     "nodemon": "nodemon --delay 1500ms -e js --watch dist dist/server.js"
   },
   "author": "",
   "license": "ISC",
+=======
+    "build-test": "tsc -p test",
+    "nodemon": "nodemon --delay 1500ms -e js --watch dist ."
+  },
+  "author": "muhammad hasan",
+  "license": "MIT",
+>>>>>>> f8e214eecd905d3996496473bade816a01a7ef56
   "devDependencies": {
     "@types/chai": "^4.2.3",
     "@types/mocha": "^5.2.7",
     "@types/node": "^12.7.12",
+<<<<<<< HEAD
     "chai": "^4.2.0",
     "mocha": "^6.2.1",
     "typescript": "^3.6.4"
@@ -28,5 +47,15 @@
     "@types/request-promise-native": "^1.0.17",
     "request": "^2.88.0",
     "request-promise-native": "^1.0.7"
+=======
+    "@types/request": "^2.48.3",
+    "@types/request-promise-native": "^1.0.17",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.1",
+    "nodemon": "^1.19.3",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.7",
+    "typescript": "^3.6.4"
+>>>>>>> f8e214eecd905d3996496473bade816a01a7ef56
   }
 }
